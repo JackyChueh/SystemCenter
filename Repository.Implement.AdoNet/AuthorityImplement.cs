@@ -59,7 +59,7 @@ namespace Repository.Implement.AdoNet
 
                         item.SID = int.Parse(reader["SID"].ToString());
                         item.USR_ID = reader["USR_ID "].ToString();
-                        item.PRG_ID = reader["PRG_ID "].ToString();
+                        item.FUN_ID = reader["FUN_ID "].ToString();
                         item.CDATE = DateTime.Parse(reader["CDATE"].ToString());
                         item.CUSER = reader["CUSER"].ToString();
                         item.MDATE = DateTime.Parse(reader["MDATE"].ToString());
@@ -87,7 +87,7 @@ namespace Repository.Implement.AdoNet
             throw new NotImplementedException();
         }
 
-        public List<FUNCTION> GetMenu()
+        public List<FUNCTION> GetMenu(string USR_ID)
         {
             throw new NotImplementedException();
         }

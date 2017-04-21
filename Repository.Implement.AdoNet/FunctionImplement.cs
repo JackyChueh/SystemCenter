@@ -12,7 +12,7 @@ using System.Reflection;
 namespace Repository.Implement.AdoNet
 {
 
-    public class FunctionImplement : IFunctionInterface
+    public class FunctionImplement : IFunctionsInterface
     {
         private string _connectionString;
 
