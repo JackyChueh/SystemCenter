@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemCenter", "SystemCenter\SystemCenter.csproj", "{88DCA456-46B2-455E-9B4D-67A206123588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Implement.AdoNet", "Repository.Implement.AdoNet\Repository.Implement.AdoNet.csproj", "{E1A6AA0D-D3B0-4415-BE6F-C12196575234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Interface", "Repository.Interface\Repository.Interface.csproj", "{864E7FE3-D710-401F-918F-86B637DE37F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Implement.EL", "Repository.Implement.EL\Repository.Implement.EL.csproj", "{98AB593F-299A-4BA9-96C0-1116C0114453}"
+EndProject
+Global
+	
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88DCA456-46B2-455E-9B4D-67A206123588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88DCA456-46B2-455E-9B4D-67A206123588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88DCA456-46B2-455E-9B4D-67A206123588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88DCA456-46B2-455E-9B4D-67A206123588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A6AA0D-D3B0-4415-BE6F-C12196575234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A6AA0D-D3B0-4415-BE6F-C12196575234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A6AA0D-D3B0-4415-BE6F-C12196575234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A6AA0D-D3B0-4415-BE6F-C12196575234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864E7FE3-D710-401F-918F-86B637DE37F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864E7FE3-D710-401F-918F-86B637DE37F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864E7FE3-D710-401F-918F-86B637DE37F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864E7FE3-D710-401F-918F-86B637DE37F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98AB593F-299A-4BA9-96C0-1116C0114453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98AB593F-299A-4BA9-96C0-1116C0114453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98AB593F-299A-4BA9-96C0-1116C0114453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98AB593F-299A-4BA9-96C0-1116C0114453}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
